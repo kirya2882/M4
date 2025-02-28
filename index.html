@@ -8,16 +8,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 class="title">Тест</h1>
+    <h1 class="title" id ='title'>Тест</h1>
     <button class="startBtn" id="start">Начать</button>
-    <div class="questionbox" id="main">
+    <div class="questionbox close" id="main">
         <h2>Название вопроса:</h2>
-        <p id="result">Решено: 0/10</p>
+        <p>Решено: 0/10</p>
         <nav class="answers">
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>4</button>
+            <button onclick="checkAnswer('1')"><b>1</b></button>
+            <button><b>2</b></button>
+            <button><b>3</b></button>
+            <button><b>4</b></button>
         </nav>
     </div>
     <script src="main.js"></script>
